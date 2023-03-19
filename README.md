@@ -1,12 +1,5 @@
 # Door-Security
-//Using the Arduino Uno board, we interfaced the keypad to enter the password.
-//Two servo motors will act as the main door.
-//If the user enters the correct password, the door will open according to the object's size.
-//Two active IR sensors will detect the object and its size.
-//The rotation angle of the servo motors will be according to the size of the detected object.
-//After a timed opening, the motors will return to initial position indicating the door is closed.
-//User can also change the password through the keypad. 
-//The coding is done in Arduino IDE. 
+//Using the Arduino Uno board, we interfaced the keypad to enter the password. Two servo motors will act as the main door. If the user enters the correct password, the door will open according to the object's size. Two active IR sensors will detect the object and its size. The rotation angle of the servo motors will be according to the size of the detected object. After a timed opening, the motors will return to initial position indicating the door is closed. User can also change the password through the keypad. The coding is done in Arduino IDE.
 
 //Code:
 #include<Keypad.h>
